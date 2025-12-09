@@ -1,0 +1,13 @@
+library(shiny)
+
+# Librerie comuni dell’app
+source("libraries.R")
+
+# UI
+source("ui.R")
+
+# Server principale (nella cartella server/)
+source("server/server.R")
+
+shinyApp(ui = ui, server = server)
+
